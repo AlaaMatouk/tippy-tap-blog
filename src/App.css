@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+:root {
+  --primary: #c7d9dd;
+  --secondary: #e67e22;
+  --gray: #333333;
+  --green: #8fff69;
+  --red: #ff4242;
+  --title-size: 32px;
+  --details-size: 20px;
+  --auther-size: 16px;
+  --tap-size: 32px;
+  --logo-size: 36px;
+  --font: "Nunito", sans-serif;
+}
+
+
