@@ -1,12 +1,41 @@
-# React + Vite
+# 📝 Tippy Tap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tippy Tap** is a modern blogging platform built with React, Firebase, and Tailwind CSS.  
+Users can sign up, create posts, favorite other posts, and manage their own — all through a clean, responsive UI.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [https://tippy-tap.vercel.app](https://tippy-tap.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Firebase Authentication (Email & Google Login)
+- 📝 Add / Edit / Delete blog posts
+- ❤️ Favorite posts (with instant UI updates)
+- 👥 "My Posts" page to manage your own content
+- 🖼️ Image upload via [ImgBB](https://imgbb.com)
+- 📱 Fully responsive layout (Mobile & Desktop)
+- ⚙️ Firestore Security Rules enabled
+
+---
+
+## 🛠️ Stack
+
+- [React](https://reactjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [Vercel Hosting](https://vercel.com/)
+
+---
+
+## 📂 Folder Structure (Highlights)
+
+```bash
+src/
+│
+├── components/        # Reusable UI (Navbar, Buttons, PostCard, etc.)
+├── pages/             # Main views (Home, MyPosts, Favorites, etc.)
+├── firebase/          # Firebase auth & Firestore functions
+├── App.jsx            # Route definitions
+└── main.jsx           # Vite entry point
