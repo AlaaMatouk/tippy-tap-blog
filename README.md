@@ -3,8 +3,7 @@
 **Tippy Tap** is a modern blogging platform built with React, Firebase, and Tailwind CSS.  
 Users can sign up, create posts, favorite other posts, and manage their own — all through a clean, responsive UI.
 
-🚀 **Live Demo:** [https://tippy-tap.vercel.app](https://tippy-tap.vercel.app)
-
+🚀 **Live Demo:** [https://tippy-tap.vercel.app](https://tippytap-blog.vercel.app)
 ---
 
 ## 🔥 Features
